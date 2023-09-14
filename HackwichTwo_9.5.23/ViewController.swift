@@ -11,17 +11,16 @@ import UIKit
 
 class ViewController: UIViewController {
     //Part 8: this is where i want you to declare 3 string variables
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func pressMeButtonPress(_ sender: Any)
+    @IBAction func pressMeButtonPressed(_ sender: Any)
     {
-      //code block
-        print("Hello World")
+        //code block write here
+        
+        
     }
-
 }
-

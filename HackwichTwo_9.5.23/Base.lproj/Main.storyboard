@@ -17,12 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DQ-DJ-6AD">
-                                <rect key="frame" x="150" y="209" width="122" height="35"/>
+                                <rect key="frame" x="164" y="209" width="95" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Press Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Press Me"/>
                                 <connections>
                                     <action selector="pressMeButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0d-Kl-taq"/>
+                                    <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lv7-HW-2xH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alb-RD-UiQ">
@@ -35,6 +36,15 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="ZM8-m2-NGm" kind="show" id="KVd-Q5-tEN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBh-2H-J7T">
+                                <rect key="frame" x="124" y="340" width="122" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Press Button"/>
+                                <connections>
+                                    <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xgl-kH-rxi"/>
                                 </connections>
                             </button>
                         </subviews>

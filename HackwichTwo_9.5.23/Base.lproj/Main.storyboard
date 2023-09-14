@@ -80,6 +80,9 @@
                                     <backgroundConfiguration key="background"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeColorButtonPressed:" destination="ZM8-m2-NGm" eventType="touchUpInside" id="mp0-TV-sXw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hdw-XO-opj"/>

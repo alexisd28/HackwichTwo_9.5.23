@@ -20,7 +20,5 @@ class secondViewController: UIViewController {
     
     //when the button is pressed, the background color of the view is set to blue
         self.view.backgroundColor = UIColor.blue
-    
-}
-
+    }
 }

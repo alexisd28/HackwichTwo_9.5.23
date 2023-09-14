@@ -26,7 +26,7 @@ override func viewDidLoad() {
     firstLabel.textColor = UIColor.systemRed
     
     //ive completed part 7 on my own and i will commit it to github
-    //trying to commit again
+    //trying to commit again and again after looking at repository
     
 //when the button is pressed, the background color of the view is set to blue
     self.view.backgroundColor = UIColor.blue

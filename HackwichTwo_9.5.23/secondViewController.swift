@@ -21,12 +21,13 @@ override func viewDidLoad() {
 
 @IBAction func changeColorButtonPressed(_ sender: Any)
 {
-    firstLabel.text = "hello world"
+    firstLabel.text = "Hello World!"
     
     firstLabel.textColor = UIColor.systemRed
     
     //ive completed part 7 on my own and i will commit it to github
-    //when i commit it isnt showing up on github??
+    //trying to commit again
+    
 //when the button is pressed, the background color of the view is set to blue
     self.view.backgroundColor = UIColor.blue
 }

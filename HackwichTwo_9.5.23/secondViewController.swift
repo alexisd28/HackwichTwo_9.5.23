@@ -9,25 +9,25 @@ import UIKit
 
 class secondViewController: UIViewController {
 
-    //part 7 on my own
-    @IBOutlet weak var firstLabel: UILabel!
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
+//part 7 on my own
+@IBOutlet weak var firstLabel: UILabel!
 
-        // Do any additional setup after loading the view.
-    }
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    // Do any additional setup after loading the view.
+}
+
+@IBAction func changeColorButtonPressed(_ sender: Any)
+{
+    firstLabel.text = "hello world"
     
-    @IBAction func changeColorButtonPressed(_ sender: Any)
-    {
-        firstLabel.text = "hello world"
-        
-        firstLabel.textColor = UIColor.systemRed
-        
-        //ive completed part 7 on my own and i will commit it to github
-        
-    //when the button is pressed, the background color of the view is set to blue
-        self.view.backgroundColor = UIColor.blue
-    }
+    firstLabel.textColor = UIColor.systemRed
+    
+    //ive completed part 7 on my own and i will commit it to github
+    //when i commit it isnt showing up on github??
+//when the button is pressed, the background color of the view is set to blue
+    self.view.backgroundColor = UIColor.blue
+}
 }

@@ -9,6 +9,7 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    //part 7 on my own
     @IBOutlet weak var firstLabel: UILabel!
     
     

@@ -24,6 +24,8 @@ class secondViewController: UIViewController {
         
         firstLabel.textColor = UIColor.systemRed
         
+        //ive completed part 7 on my own
+        
     //when the button is pressed, the background color of the view is set to blue
         self.view.backgroundColor = UIColor.blue
     }
